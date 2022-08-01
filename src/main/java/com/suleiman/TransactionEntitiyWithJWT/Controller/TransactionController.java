@@ -1,9 +1,8 @@
 package com.suleiman.TransactionEntitiyWithJWT.Controller;
 
-import com.suleiman.TransactionEntitiyWithJWT.Dao.TransactionReference;
+import com.suleiman.TransactionEntitiyWithJWT.Dto.TransactionReference;
 import com.suleiman.TransactionEntitiyWithJWT.Entity.Transaction;
 import com.suleiman.TransactionEntitiyWithJWT.Service.TransactionService;
-import com.suleiman.TransactionEntitiyWithJWT.Utils.TransactionStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

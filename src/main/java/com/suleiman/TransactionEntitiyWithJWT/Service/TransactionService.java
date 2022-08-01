@@ -1,10 +1,8 @@
 package com.suleiman.TransactionEntitiyWithJWT.Service;
 
-import com.suleiman.TransactionEntitiyWithJWT.Dao.TransactionReference;
+import com.suleiman.TransactionEntitiyWithJWT.Dto.TransactionReference;
 import com.suleiman.TransactionEntitiyWithJWT.Entity.Transaction;
-import com.suleiman.TransactionEntitiyWithJWT.Entity.TransactionCommandLineRunner;
 import com.suleiman.TransactionEntitiyWithJWT.Repository.TransactionRepo;
-import com.suleiman.TransactionEntitiyWithJWT.Utils.TransactionStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +11,6 @@ import org.springframework.stereotype.Service;
 import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 public class TransactionService {

@@ -1,4 +1,4 @@
-package com.suleiman.TransactionEntitiyWithJWT.Dao;
+package com.suleiman.TransactionEntitiyWithJWT.Dto;
 
 
 import com.suleiman.TransactionEntitiyWithJWT.Utils.TransactionStatus;
